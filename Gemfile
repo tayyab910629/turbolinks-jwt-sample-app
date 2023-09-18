@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.2'
+ruby '2.7.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 6.1'
@@ -53,3 +53,15 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'shopify_app'
+
+# Gemfile
+
+# Other gems...
+
+platforms :ruby do
+  # Your non-Windows gems go here...
+end
+
+platforms :x64_mingw, :mingw, :mswin do
+  gem 'wdm', '>= 0.1.0'
+end

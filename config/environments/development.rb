@@ -1,5 +1,7 @@
 Rails.application.configure do
   config.hosts = (config.hosts rescue []) << /[\h-]+\.ngrok.io/
+  config.hosts << "deeb-2a00-23c7-fe2f-3201-a40a-f639-6cb8-8704.ngrok-free.app"
+  config.web_console.whitelisted_ips = '119.73.117.32'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -12,6 +14,7 @@ Rails.application.configure do
 
   # Show full error reports.
   config.consider_all_requests_local = true
+
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.

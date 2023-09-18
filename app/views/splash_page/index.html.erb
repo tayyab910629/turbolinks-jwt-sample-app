@@ -1,1 +1,11 @@
-<p>Loading...</p>
+<h2>Products</h2>
+
+<ul>
+  <% @products.each do |product| %>
+    <li><%= link_to product.title, custom_path(product.id,{"embedded"=>"1", "hmac"=>"188a2b6dd90c979816df7bd0ea37fffbeed1aff1c720dad4fe325975bf30919c", "host"=>"YWRtaW4uc2hvcGlmeS5jb20vc3RvcmUvdGVzdGFwcHJ1Ynk", "locale"=>"en", "session"=>"7661bc78440051b01557dd4d376faad074fad9b6737f5c25", "shop"=>"testappruby.myshopify.com", "timestamp"=>"1695023124"}) %></li>
+  <% end %>
+</ul>
+
+ 
+<%= link_to 'Get Orders', orders_path(1,{"embedded"=>"1", "hmac"=>"188a2b6dd90c979816df7bd0ea37fffbeed1aff1c720dad4fe325975bf30919c", "host"=>"YWRtaW4uc2hvcGlmeS5jb20vc3RvcmUvdGVzdGFwcHJ1Ynk", "locale"=>"en", "session"=>"7661bc78440051b01557dd4d376faad074fad9b6737f5c25", "shop"=>"testappruby.myshopify.com", "timestamp"=>"1695023124"}) %>
+

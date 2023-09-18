@@ -1,0 +1,5 @@
+HOST: https://deeb-2a00-23c7-fe2f-3201-a40a-f639-6cb8-8704.ngrok-free.app
+SHOPIFY_API_KEY: 901c3a86c1fd9587afde44cd0e7bff2e
+SHOPIFY_API_SECRET: 0fbad5fca7aa93ffaa708d2b782f094e
+REDIRECT_URI: https://deeb-2a00-23c7-fe2f-3201-a40a-f639-6cb8-8704.ngrok-free.app/auth/shopify/callback
+APP_URL: https://deeb-2a00-23c7-fe2f-3201-a40a-f639-6cb8-8704.ngrok-free.app
